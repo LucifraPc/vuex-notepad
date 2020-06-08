@@ -5,6 +5,7 @@ import App from './App';
 import Vuex from 'vuex';
 import store from './store/index';
 Vue.use(Vuex);
+console.log(Vuex,'Vuex');
 new Vue({
     el: '#app',
     store: store,
